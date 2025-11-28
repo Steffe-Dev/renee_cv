@@ -1,0 +1,17 @@
+{
+  "name": "renee_cv",
+  "version": "1.0.0",
+  "description": "Renee van Niekerk personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "start": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch --minify"
+  },
+  "author": "Frans Stefanus Bothma",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
