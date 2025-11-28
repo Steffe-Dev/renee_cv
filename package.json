@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
-    "start": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch --minify"
+    "build": "tailwindcss -i ./styles.css -o ./dist/styles.css --minify",
+    "start": "tailwindcss -i ./styles.css -o ./dist/styles.css --watch --minify"
   },
   "author": "Frans Stefanus Bothma",
   "license": "ISC",
